@@ -27,7 +27,7 @@
   body.index {background-image:url(Multimedia/Fon.jpg); background-attachment: fixed;background-size: cover;}
   body.test {background-image:url(Multimedia/test2.jpg); background-attachment: fixed;background-size: cover;}
   body.str4 {background-image:url(Multimedia/ba6b10aeb93229e165274fd960c104bb.jpg ); background-attachment: fixed;background-size: cover;}
-  body.processor_creation {background-image:url(Multimedia/Fon2.jpg ); background-attachment: fixed;background-size: cover;}
+  body.processor_creation {background-image:url(Multimedia/Fon2.jpg;) background-attachment: fixed;background-size: cover;}
   body.types_of_processors {background-attachment: fixed;background-size: cover;}
   body.types_of_architecture {background-image: url(Multimedia/tester.jpg) ;background-attachment: fixed;background-size: cover;}
   body.str4 {background-image: url(Multimedia/Fon2.jpeg) ;background-attachment: fixed;background-size: cover;}
