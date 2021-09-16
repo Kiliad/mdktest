@@ -1,0 +1,131 @@
+﻿<style type="text/css">
+
+1{}
+
+ .button {
+      text-shadow: 1px 1px 2px black, 0 0 1em azure;
+      background-color: black;
+      border: double;
+      border-color: red;
+      color: white ;
+      padding: 20px 34px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      }
+  p.dline {line-height: 1.5;}
+  p {line-height: 0.9em;font-size: 25px;text-indent: 20px;}a
+  h1 {font-size: 35px; text-align: center;}
+  h1 {text-align: center;}
+  h2 {font-size: 25px;text-align: center;}
+  h3 {font-size: 25px;text-align: center;}
+  li {font-size: 25px;}
+  ul.b {list-style-type: square;}
+  body.index {background-image:url(Multimedia/Fon.jpg); background-attachment: fixed;background-size: cover;}
+  body.test {background-image:url(Multimedia/test2.jpg); background-attachment: fixed;background-size: cover;}
+  body.str4 {background-image:url(Multimedia/ba6b10aeb93229e165274fd960c104bb.jpg ); background-attachment: fixed;background-size: cover;}
+  body.processor_creation {background-image:url(Multimedia/fon2.jpg ); background-attachment: fixed;background-size: cover;}
+  body.types_of_processors {background-attachment: fixed;background-size: cover;}
+  body.types_of_architecture {background-image: url(Multimedia/tester.jpg) ;background-attachment: fixed;background-size: cover;}
+  body.str4 {background-image: url(Multimedia/Fon2.jpeg) ;background-attachment: fixed;background-size: cover;}
+
+
+
+  div {
+    background: rgba(255,255,255,0.7);
+    background-clip: padding-box;
+    border: 25px;  border-radius: 25px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px
+    }
+  html{scroll-behavior: smooth;}
+  .shadowtext {
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+    color: white;
+   }
+      .brd {
+        border-radius: 10px;
+    border: 4px double black; 
+    background: #fc3; 
+    padding: 10px;
+    margin-right: 10%;
+   }
+   .Цвет {
+      color: rgb(70, 130, 180);
+      }
+
+   TABLE {
+    background: white; 
+    color: black; 
+   }
+   TD, TH {
+
+    background: rgb(220, 220, 220); 
+    padding: 5px; 
+   }
+ .button {
+
+      position: relative;
+      left: 15%;
+      transform: translate(-0%, 0);
+      text-shadow: 1px 1px 2px black, 0 0 1em azure;
+      background-color: black;
+      border: double;
+      border-color: red;
+      color: white ;
+      padding: 20px 34px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      }
+      .pic2 {text-align: center;}
+      .pic { text-align: center;}
+
+   }
+      .gif {text-align:center;}
+  2{}
+      .button2 {      
+      float:right;
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 20px 34px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      }
+     .z{    background-color: black;
+      border: none;
+      float:right;
+      color: white;
+      padding: 20px 34px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;}
+  
+
+
+
+
+
+
+
+
+
+
+
+</style>
