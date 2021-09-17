@@ -5,11 +5,30 @@
 <link rel="shortcut icon" href="Multimedia/prosessor.ico" type="image/x-icon">
 
 	<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+ 
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
+});
+</script>
   	</head>
 		<body class="types_of_architecture">
-            <div>
           <h1>Типы ахитектур процессоров</h1>
   <a href="Виды процессоров.html" class="button">Виды процессоров</a> </font>
+  <div>
           <h2>Существуют процессоры различной архитектуры.</h2>
           <h2>CISC </h2>
         <p>CISC (англ. Complex Instruction Set Computing) — концепция проектирования процессоров, которая характеризуется следующим набором свойств:</p>
@@ -45,7 +64,6 @@
                 <h2>MISC</h2>
           <p>MISC (Multipurpose lnstruction Set Computer). Элементная база состоит из двух частей, которые либо выполнены в отдельных корпусах, либо объединены. Основная часть – RISC CPU, расширяемый подключением второй части – ПЗУ микропрограммного управления. Система приобретает свойства CISC. Основные команды работают на RISC CPU, а команды расширения преобразуются в адрес микропрограммы. RISC CPU выполняет все команды за один такт, а вторая часть эквивалентна CPU со сложным набором команд. Наличие ПЗУ устраняет недостаток RISC, выраженный в том, что при компиляции с языка высокого уровня микрокод генерируется из библиотеки стандартных функций, занимающей много места в ОЗУ. Поскольку микропрограмма уже дешифрована и открыта для программиста, то времени выборки из ОЗУ на дешифрацию не требуется.</p>
                     </div>
-                    <a href="#" class="button2" >Наверх</a> </font>
-
+<a href="#" class="scrollup">Наверх</a>
 	</body>
 </html>

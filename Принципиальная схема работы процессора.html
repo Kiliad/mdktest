@@ -5,6 +5,25 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="Multimedia/prosessor.ico" type="image/x-icon">
 <head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+ 
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
+});
+</script>
 </head>
 <body class="test">
 <header>
@@ -12,8 +31,6 @@
   </header>
 	
 	<a href="index.html" class="button">Главная</a>	</font>
-	                  <a href="#z" class='z'>Вниз</a>
-
 	 <p class="pic2"><img src="Multimedia/работа процессора.jpg" size="500" height="500" title="Процессор" /></p>	
 	 <div>
 
@@ -82,9 +99,9 @@
 				<p>Однако такое решение подходит только для тех инструкций, которые не зависят друг от друга.</p>
 				<p  id="z">Если процессор многоядерный, это означает, что фактически в нём находятся несколько отдельных процессоров с некоторыми общими ресурсами, например кэшем.</p>
 			</div>
-					<a href="#" class="button2">Наверх</a>	</font>
 
 
 </ul>
+<a href="#" class="scrollup">Наверх</a>
 </body>
 </html>

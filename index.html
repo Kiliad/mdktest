@@ -4,7 +4,25 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 <meta charset="utf-8">
 	<head>
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+ 
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
+});
+</script>
 		<link rel="shortcut icon" href="Multimedia/prosessor.ico" type="image/x-icon">
 	</head>
 	<title>Микропроцессоры основная страница</title>
@@ -28,6 +46,6 @@
 										<p class="pic"><img src=Multimedia/Процессор.gif size="150" height="150">
             <p class="shadowtext">Архитектура процессора — количественная составляющая компонентов микроархитектуры вычислительной машины (процессора компьютера) (например, регистр флагов или регистры процессора), рассматриваемая IT-специалистами в аспекте прикладной деятельности.</p>
 										<p class="pic"><img src="Multimedia/architecture.jpg" align="center" size="400" height="400" title="Архитектура Фон Нэймана" /></p>	
-
+<a href="#" class="scrollup">Наверх</a>
 	</body>
 </html>
