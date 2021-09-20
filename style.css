@@ -40,7 +40,7 @@ border:solid;
     border-radius: 100px;
     transition: 670ms linear;
    }
-a.button:active { background: #007FC2; transition: 100ms linear;}
+a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;}
   div {
     background: rgba(255,255,255,0.7);
     background-clip: padding-box;
