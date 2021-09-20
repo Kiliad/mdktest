@@ -2,7 +2,7 @@
 
 1{}
 
-
+  
   p.dline {line-height: 1.5;}
   p {line-height: 0.9em;font-size: 25px;text-indent: 20px;}
   h1 {font-size: 35px; text-align: center;}
@@ -28,7 +28,16 @@ border:solid;
 !--.test {    text-shadow: 1px 1px 2px black, 0 0 1em red;
     color: white; 
     1--padding-top: 70px;}
-
+    button {
+    color: #008; /* Цвет текста */
+    background: #ffc; /* Цвет фона */
+    padding: 2px; /* Поля вокруг текста */
+    transition: 250ms linear; /* Время изменения */
+   }
+   .button:hover {
+    color: #fff; /* Цвет текста */
+    background: #008; /* Цвет фона */
+   }
   div {
     background: rgba(255,255,255,0.7);
     background-clip: padding-box;
@@ -88,6 +97,7 @@ border:solid;
       .gif {text-align:center;}
   2{}
      .scrollup{
+
       width:40px;
       height:40px;
       opacity:0.7;
