@@ -29,14 +29,16 @@ border:solid;
     color: white; 
     1--padding-top: 70px;}
     a {
-    color: #008; /* Цвет текста */
-    background: #ffc; /* Цвет фона */
-    padding: 2px; /* Поля вокруг текста */
-    transition: 250ms linear; /* Время изменения */
+    color: #008; 
+    background: #ffc; 
+    padding: 2px;
+    transition: 250ms linear; 
    }
    .button:hover {
-    color: #fff; /* Цвет текста */
-    background: #008; /* Цвет фона */
+    color: #fff;
+    background: #008;
+    border-radius: 100px;
+    transition: 670ms linear;
    }
   div {
     background: rgba(255,255,255,0.7);
