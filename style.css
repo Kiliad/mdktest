@@ -4,7 +4,7 @@
 
 
   p.dline {line-height: 1.5;}
-  p {line-height: 0.9em;font-size: 25px;text-indent: 20px;}a
+  p {line-height: 0.9em;font-size: 25px;text-indent: 20px;}
   h1 {font-size: 35px; text-align: center;}
   h1 {text-align: center;}
   h2 {font-size: 25px;text-align: center;}
@@ -18,8 +18,16 @@
   body.types_of_processors {background-attachment: fixed;background-size: cover;}
   body.types_of_architecture {background-image: url(Multimedia/tester.jpg) ;background-attachment: fixed;background-size: cover;}
   body.str4 {background-image: url(Multimedia/fon2.jpeg) ;background-attachment: fixed;background-size: cover;}
-
-
+  1--.footer {background-image: url(Multimedia/567.jpg); height: 400px;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: -29px;
+    padding: 25px;
+border:solid;
+  }
+!--.test {    text-shadow: 1px 1px 2px black, 0 0 1em red;
+    color: white; 
+    1--padding-top: 70px;}
 
   div {
     background: rgba(255,255,255,0.7);
