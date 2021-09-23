@@ -2,9 +2,9 @@
 
 1{}
 
-  
   p.dline {line-height: 1.5;}
   p {line-height: 0.9em;font-size: 25px;text-indent: 20px;}
+  p2{line-height: 0.9em;font-size: 25px;text-indent: 20px; color: black}
   h1 {font-size: 35px; text-align: center;}
   h1 {text-align: center;}
   h2 {font-size: 25px;text-align: center;}
@@ -19,7 +19,12 @@
   body.types_of_processors {background-attachment: fixed;background-size: cover;}
   body.types_of_architecture {background-image: url(Multimedia/tester.jpg) ;background-attachment: fixed;background-size: cover;}
   body.str4 {background-image: url(Multimedia/fon2.jpeg) ;background-attachment: fixed;background-size: cover;}
-  1--.footer {background-image: url(Multimedia/567.jpg); height: 400px;
+  body.adr {background-image: url(Multimedia/outerspace-6.gif) ;background-attachment: fixed;background-size: cover; background-position: center; }
+  /*body.mat {background-image: url(Multimedia/ASUS-Maximus-XI-Extreme-1501x1600_large.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }*/
+  /*body.reg {background-image: url(Multimedia/394026.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }*/
+
+
+  1--header {background-image: url(Multimedia/567.jpg); height: 400px;
     margin-right: -10px;
     margin-left: -10px;
     margin-top: -29px;
@@ -44,6 +49,15 @@ border:solid;
 a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;}
   div {
     background: rgba(255,255,255,0.7);
+    background-clip: padding-box;
+    border: 25px;  border-radius: 25px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px
+    }
+    .div2 {
+    background: rgba(255,255,255,0.1);
     background-clip: padding-box;
     border: 25px;  border-radius: 25px;
     padding: 30px;
@@ -77,9 +91,8 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
     padding: 5px; 
    }
  .button {
-
       position: relative;
-      left: 15%;
+      left: 10%;
       transform: translate(-0%, 0);
       text-shadow: 1px 1px 2px black, 0 0 1em azure;
       background-color: black;
@@ -101,7 +114,6 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
       .gif {text-align:center;}
   2{}
      .scrollup{
-
       width:40px;
       height:40px;
       opacity:0.7;
@@ -112,4 +124,118 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
       text-indent:-9999px;
       background: url('Multimedia/icon_top2.png') no-repeat;
                           }
-</style>
+.body_slides{
+    list-style:none;
+    margin:0;
+    padding:0;
+    z-index:-2; 
+    background:#000;}
+.body_slides,
+.body_slides:after{
+    position: fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;}
+.body_slides:after { 
+    content: '';
+    background: transparent url(images/pattern.png) repeat top left;}
+ 
+ 
+.body_slides li{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-size:cover;
+    background-repeat:no-repeat;
+    opacity:0;
+    -webkit-animation: anim_slides 12s linear infinite 0s;
+    -moz-animation: anim_slides 12s linear infinite 0s;
+    -o-animation: anim_slides 12s linear infinite 0s;
+    -ms-animation: anim_slides 12s linear infinite 0s;
+    animation: anim_slides 12s linear infinite 0s;
+}
+.body_slides li:nth-child(1){
+background-image: url(Multimedia/394026.jpg) 
+}
+.body_slides li:nth-child(2){
+-webkit-animation-delay: 6.0s;
+-moz-animation-delay: 6.0s;
+background-image: url(Multimedia/planeta-stroitelstvo-yadro.jpg) 
+}
+@-webkit-keyframes anim_slides {
+0% {opacity:0;}
+6% {opacity:1;}
+24% {opacity:1;}
+50% {opacity:0;}
+100% {opacity:0;}
+}
+@-moz-keyframes anim_slides {
+0% {opacity:0;}
+6% {opacity:1;}
+24% {opacity:1;}
+50% {opacity:0;}
+100% {opacity:0;}
+}
+
+
+
+
+ .body_slidess{
+    list-style:none;
+    margin:0;
+    padding:0;
+    z-index:-2; 
+    background:#000;}
+.body_slidess,
+.body_slidess:after{
+    position: fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;}
+.body_slidess:after { 
+    content: '';
+    background: transparent url() repeat top left;}
+ 
+ 
+.body_slidess li{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-size:cover;
+    background-repeat:no-repeat;
+    opacity:0;
+    -webkit-animation: anim_slides 12s linear infinite 0s;
+    -moz-animation: anim_slides 12s linear infinite 0s;
+    -o-animation: anim_slides 12s linear infinite 0s;
+    -ms-animation: anim_slides 12s linear infinite 0s;
+    animation: anim_slides 12s linear infinite 0s;
+}
+.body_slidess li:nth-child(1){
+background-image: url(Multimedia/mat2.jpg) 
+}
+.body_slidess li:nth-child(2){
+-webkit-animation-delay: 6.0s;
+-moz-animation-delay: 6.0s;
+background-image: url(Multimedia/ASUS-Maximus-XI-Extreme-1501x1600_large.jpg) 
+}
+@-webkit-keyframes anim_slides {
+0% {opacity:0;}
+6% {opacity:1;}
+24% {opacity:1;}
+50% {opacity:0;}
+100% {opacity:0;}
+}
+@-moz-keyframes anim_slides {
+0% {opacity:0;}
+6% {opacity:1;}
+24% {opacity:1;}
+50% {opacity:0;}
+100% {opacity:0;}
+}
+ </style>
