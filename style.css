@@ -24,14 +24,14 @@
   /*body.reg {background-image: url(Multimedia/394026.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }*/
 
 
-  1--header {background-image: url(Multimedia/567.jpg); height: 400px;
+  /*header {background-image: url(Multimedia/567.jpg); height: 400px;
     margin-right: -10px;
     margin-left: -10px;
     margin-top: -29px;
     padding: 25px;
 border:solid;
   }
-!--.test {    text-shadow: 1px 1px 2px black, 0 0 1em red;
+.test {    text-shadow: 1px 1px 2px black, 0 0 1em red;
     color: white; 
     !--padding-top: 70px;}
     a {
@@ -39,24 +39,7 @@ border:solid;
     background: #ffc; 
     padding: 2px;
     transition: 250ms linear; 
-   }
-   .b2{
-     position: relative;
-      left: 10%;
-      transform: translate(-0%, 0);
-      text-shadow: 1px 1px 2px black, 0 0 1em azure;
-      background-color: black;
-      border: double;
-      border-color: red;
-      color: white ;
-      padding: 20px 34px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 2px;
-      margin: 4px 2px;
-      cursor: pointer;
-      }
+   }*/
    .button:hover {
     color: #fff;
     background: #1919D2;
@@ -68,10 +51,10 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
     background: rgba(255,255,255,0.7);
     background-clip: padding-box;
     border: 25px;  border-radius: 25px;
-    padding: 30px;
+    padding: 2%;
     margin-left: auto;
     margin-right: auto;
-    width: 800px
+    width: 50%
     }
     .div2 {
     background: rgba(255,255,255,0.1);
@@ -109,19 +92,19 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
    }
  .button {
       position: relative;
-      left: 10%;
+      left: 3%;
       transform: translate(-0%, 0);
       text-shadow: 1px 1px 2px black, 0 0 1em azure;
       background-color: black;
       border: double;
       border-color: red;
       color: white ;
-      padding: 20px 34px;
+      padding: 1% 2%;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 20px;
-      margin: 4px 2px;
+      font-size: 120%;
+      margin: 1% 2px;
       cursor: pointer;
       }
       .pic2 {text-align: center;}
