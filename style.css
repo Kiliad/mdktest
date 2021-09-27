@@ -116,7 +116,7 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
      .scrollup{
       width:40px;
       height:40px;
-      opacity:0.7;
+      opacity:1;
       position:fixed;
       bottom:50px;
       right:100px;
