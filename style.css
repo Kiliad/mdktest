@@ -40,6 +40,23 @@ border:solid;
     padding: 2px;
     transition: 250ms linear; 
    }
+   .b2{
+     position: relative;
+      left: 10%;
+      transform: translate(-0%, 0);
+      text-shadow: 1px 1px 2px black, 0 0 1em azure;
+      background-color: black;
+      border: double;
+      border-color: red;
+      color: white ;
+      padding: 20px 34px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 2px;
+      margin: 4px 2px;
+      cursor: pointer;
+      }
    .button:hover {
     color: #fff;
     background: #1919D2;
