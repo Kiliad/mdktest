@@ -23,7 +23,8 @@
   /*body.mat {background-image: url(Multimedia/ASUS-Maximus-XI-Extreme-1501x1600_large.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }*/
   /*body.reg {background-image: url(Multimedia/394026.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }*/
   body.sokr {background-image: url(Multimedia/1616051479_10-p-epik-fon-11.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
-  /*header {background-image: url(Multimedia/567.jpg); height: 400px;
+  body.assembler {background-image: url(Multimedia/fantasy_art-142954.jpg!d) ;background-attachment: fixed;background-size: cover; background-position: center; }
+    /*header {background-image: url(Multimedia/567.jpg); height: 400px;
     margin-right: -10px;
     margin-left: -10px;
     margin-top: -29px;
@@ -46,7 +47,7 @@ border:solid;
     transition: 670ms linear;
    }
 a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;}
-  div {
+  .div {
     background: rgba(255,255,255,0.7);
     background-clip: padding-box;
     border: 25px;  border-radius: 25px;
@@ -107,7 +108,7 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
       cursor: pointer;
       }
       .pic2 {text-align: center;}
-      .pic { text-align: center;}
+      .pic { text-align: center; height: 100%; width: 100%;}
 
    }
       .gif {text-align:center;}
