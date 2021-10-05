@@ -48,7 +48,7 @@ border:solid;
     border-radius: 100px;
     transition: 670ms linear;
    }
-a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;}
+a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear; border-radius: 0 20px;}
   .div {
     background: rgba(255,255,255,0.7);
     background-clip: padding-box;
