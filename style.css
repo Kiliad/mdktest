@@ -28,6 +28,7 @@
   body.prog {background-image: url(Multimedia/progfon.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
   body.Myr {background-image: url(https://i.pinimg.com/originals/cb/10/9d/cb109d5d1402ae804422a89aa168da00.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
   body.Mobproc {background-image: url(https://wallpaperforu.com/wp-content/uploads/2021/03/Wallpaper-Digital-Art-Artwork-Video-Games-Dark-Souls-A41.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
+  body.pol {background-image: url(https://wallpaperaccess.com/full/1141048.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
     /*header {background-image: url(Multimedia/567.jpg); height: 400px;
     margin-right: -10px;
     margin-left: -10px;
@@ -111,6 +112,64 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
       margin: 1% 2px;
       cursor: pointer;
       }
+
+
+.dropdown {
+    position: relative;
+      left: 50%;
+      transform: translate(-50%, 0);
+    display: inline-block;
+}
+
+
+.dropbtn {
+j
+      background-color: black;
+      border: double;
+      border-color: red;
+      color: black ;
+      padding: 30% 50%;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 130%;
+      cursor: pointer;
+}
+
+.dropbtn:hover{
+    background-color: DarkSalmon;   transition: 500ms linear;
+    border-radius: 25px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: RoyalBlue;
+    min-width: 260px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+  border: solid;
+  border-radius: 100px;
+  margin: 5px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a {background-color: white;}
+.dropdown a:hover {background-color: #00bfff;     transition: 500ms linear; border-radius: 0px;}
+.show {display: block;}
       .pic2 {text-align: center;}
       .pic { text-align: center; height: 100%; width: 100%;}
 
