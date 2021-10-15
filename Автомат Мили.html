@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="zoom.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+	<head>
+		<link rel="shortcut icon" href="Multimedia/prosessor.ico" type="image/x-icon">
+	</head>
+	<title>Автомат Мили</title>
+		<body class="avtmilf">
+		<article>
+  <header>
+    <h1 class="shadowtext">Автомат Мили</h1>
+      </font>
+	<a href="index.html" class="button">Главная</a>	</font>
+     </header>
+</article>
+<div class="div">
+	<p>Автомат Мили:</p>
+            <button onclick="show('Page1');" class="pages">Определение</button>
+            <button onclick="show('Page2');" class="pages">Представление</button>
+          
+ 	<div id="Page1" class="page" style="">
+ 			<p>Автомат Мили (англ. Mealy machine) — конечный автомат, выходная последовательность которого (в отличие от автомата Мура) зависит от состояния автомата и входных сигналов. Это означает, что в графе состояний каждому ребру соответствует некоторое значение (выходной символ). В вершины графа автомата Мили записываются выходящие сигналы, а дугам графа приписывают условие перехода из одного состояния в другое, а также входящие сигналы. Назван именем Джорджа Мили, учёного в области математики и компьютерных наук, придумавшего этот автомат.</p>
+                        <p class="pic"><img src="Multimedia/200px-Mealymachine_jaredwf.png" align="center" size="200" height="200" class="minimized" /></p>  
+
+            <p>Автомат Мили — совокупность A = (S,X,Y,δ,λ), где:</p>
+                <li>S — конечное непустое множество состояний автомата;</li>
+                <li>X — конечное непустое множество входных символов;</li>
+                <li>Y — конечное непустое множество выходных символов;</li>
+                <li>δ : S x X → S  — функция переходов, отображающая пары состояние/входной символ на соответствующее следующее состояние;</li>
+                <li>λ : S x X → Y — функция выходов, отображающая пары состояние/входной символ на соответствующий выходной символ;</li>
+                <li>S0 ∈ S — начальное состояние.</li>
+                <P>Кодировка автомата Мили:</P>
+                <p>Вершина (операторная или логическая), стоящая после вершины «Начало», а также вход вершины «Конец» помечается символом S1, вершины, стоящие после операторных помечаются символом Sn (n=2,3..).</p>
+	</div>
+	 		<div id="Page2" class="page" style="display: none;">
+	 			<h2>Матрица функций переходов</h2>
+                        <p class="pic"><img src="Multimedia/tablmil.jpg" align="center" size="200" height="200" class="minimized" /></p>  
+                <h2>Легенда</h2>
+                        <p class="pic"><img src="Multimedia/legmil.jpg" align="center" size="90" height="90" class="minimized" /></p> 
+                	 				 		</div>
+							</div>
+</div>
+<a href="#" class="scrollup">Наверх</a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="zoom.js"></script>
+<script src="pages.js"></script>
+	</body>
+</html>
