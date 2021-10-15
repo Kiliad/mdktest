@@ -12,7 +12,7 @@
   h5 {text-align: right; font-size: 35px;}
   li {font-size: 25px;}
   ul.b {list-style-type: square;}
-  body.index {background-image:url(Multimedia/Fon.jpg); background-attachment: fixed;background-size: cover;}
+  body.index {background-image:url(Multimedia/Fon1.jpg); background-attachment: fixed;background-size: cover;}
   body.test {background-image:url(Multimedia/test2.jpg); background-attachment: fixed;background-size: cover;}
   body.str4 {background-image:url(Multimedia/ba6b10aeb93229e165274fd960c104bb.jpg ); background-attachment: fixed;background-size: cover;}
   body.processor_creation {background-image:url(Multimedia/fon2.jpg ); background-attachment: fixed;background-size: cover;}
@@ -29,6 +29,15 @@
   body.Myr {background-image: url(https://i.pinimg.com/originals/cb/10/9d/cb109d5d1402ae804422a89aa168da00.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
   body.Mobproc {background-image: url(https://wallpaperforu.com/wp-content/uploads/2021/03/Wallpaper-Digital-Art-Artwork-Video-Games-Dark-Souls-A41.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
   body.pol {background-image: url(https://wallpaperaccess.com/full/1141048.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
+  body.Plis {background-image: url(Multimedia/thumb-1920-877952.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
+  body.diodmatr {background-image: url(Multimedia/diodmatr.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
+  body.avtmur {background-image: url(Multimedia/avtmurf.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
+  body.avtmilf {background-image: url(Multimedia/avtmilf.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
+
+
+
+
+
     /*header {background-image: url(Multimedia/567.jpg); height: 400px;
     margin-right: -10px;
     margin-left: -10px;
@@ -95,6 +104,20 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
     background: rgb(220, 220, 220); 
     padding: 5px; 
    }
+   .pages {
+                text-decoration:underline;
+                color:black;
+                cursor:pointer;
+    border:2px solid;
+    background: white;
+    padding:3px;
+    font-size: 90%;
+        }
+.smpage {
+    background: #00bfff;
+    color: black;
+}
+
  .button {
       position: relative;
       left: 3%;
