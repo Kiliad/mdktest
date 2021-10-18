@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="zoom.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+	<head>
+		<link rel="shortcut icon" href="Multimedia/123.ico" type="image/x-icon">
+	</head>
+	<style>
+		tr{height:50px;
+
+		}
+	</style>
+	<title>Логические функции</title>
+		<body class="logfun">
+		<article>
+  <header>
+    <h1 class="shadowtext">Логические функции</h1>
+      </font>
+	<a href="index.html" class="button">Главная</a>	</font>
+     </header>
+</article>
+<div class="div">
+	
+         <p>Логические функции:</p>
+            <button onclick="show('Page1');" class="pages">Логические функции</button>
+            <button onclick="show('Page2');" class="pages">Таблица истинности</button>
+ 	<div id="Page1" class="page" style="">
+ 			<P>Функция - переменная величина, меняющаяся в зависимости от изменений другой величины.</P>
+ 			<p>Логическая функция — это функция, аргументами которой являются только булевы переменные (принимающие значения из множества {0,1}) и которая на любом наборе значений этих аргументов принимает значения из множества {0,1}.</p>
+				<h2>Виды логических функций:</h2>   
+			<p>Одноместные (унарные) функции:</p>
+					<p class="pic"><img src="Multimedia/logfun.jpg" align="center" size="300"  class="minimized" /></p>
+			<p>Двухместные (бинарные) функции</p>
+					<p class="pic"><img src="Multimedia/logfun2.jpg" align="center" size="300"  class="minimized" /></p>
+						<li>Значения логической функции задаются с помощью таблицы истинности или определяются по формулам.</li>
+						<li>Логическая функция является предикатом, определённым на множестве {0,1}.</li>
+				<h2>Определим логические функции:</h2>
+						<ol>
+							<li>Инверсия (отрицание) — это логическое не. Говорят, что имея суждение А, можно образовать новое суждение, которое читается как «не А» или «неверно, что А». Для обозначения отрицания суждения употребляется символ ¬ или – над переменной. Запись ¬А читается как «не А».</li>
+                	<table align="center" width="500">
+<th>А</th>            <th>¬A</th>
+<tr>
+  <td align="center">0</td>
+  <td align="center">1</td>
+
+</tr>
+<tr>
+  <td align="center">1</td>
+  <td align="center">1</td>
+</tr>
+</table>
+							<li>Коньюкция - это логическое умножение. Обозначение: А & В ( АВ, А ∧ В ) . Читается так “ А и В “</li>
+					<table align="center" width="500">
+<th>А</th>            <th>B</th>		<th>А ∧ В</th>	
+<tr>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+</tr>
+<tr>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+</tr>
+<tr>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+</tr>
+<tr>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+</tr>
+</table>
+							<li>Дизьюкция - это логическое сложение. Обозначение: А ∨ В , ( А + В ). Читается так: “ А или В ”</li>
+						<table align="center" width="500">
+<th>А</th>            <th>B</th>		<th>А ∨ В</th>	
+<tr>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+</tr>
+<tr>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+</tr>
+<tr>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+</tr>
+<tr>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+</tr>
+</table>
+							<li>Эквиваленция - это функция тождества. Она обозначается символами = , ~ , или <=>. Выбираем обозначение
+А = В. («тогда и только тогда»). Запись А = В читается как «А эквивалентно В».</li>
+						<table align="center" width="500">
+<th>А</th>            <th>B</th>		<th>А = В</th>	
+<tr>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+</tr>
+<tr>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+</tr>
+<tr>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+</tr>
+<tr>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+</tr>
+</table>
+							<li>Импликация - это логическое следование. Импликация двух высказываний А и В соответствует союзу «ЕСЛИ…ТО». Она обозначается символом →. Читается как «из А следует В». Обозначение: A→B.</li>
+						<table align="center" width="500">
+<th>А</th>            <th>B</th>		<th>А → В</th>	
+<tr>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+</tr>
+<tr>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+</tr>
+<tr>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+</tr>
+<tr>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+</tr>
+</table>
+	</div>
+		 		<div id="Page2" class="page" style="display: none;">
+		 			<br>
+						<table align="center" width="100%">
+<th>А</th>            <th>B</th>		<th>¬A</th>			<th>А ∧ В</th>			<th>А ∨ В</th>			<th>А ⊕ В</th>			<th>А → В</th>			<th>A~B</th>
+<tr>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+</tr>
+<tr>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+
+</tr>
+<tr>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">0</td>
+
+</tr>
+<tr>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+  <td align="center">0</td>
+  <td align="center">1</td>
+  <td align="center">1</td>
+</tr>
+</table>
+                   		</div>
+</div>
+<a href="#" class="scrollup">Наверх</a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="zoom.js"></script>
+<script src="pages.js"></script>
+	</body>
+</html>
