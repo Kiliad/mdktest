@@ -100,6 +100,8 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
     background: rgb(220, 220, 220); 
     padding: 5px; 
    }
+   .men{border: double; width: 10%; position: relative;
+    left: 45%; border-color: white; background-color: grey;}
    .pages {
                 text-decoration:underline;
                 color:black;
