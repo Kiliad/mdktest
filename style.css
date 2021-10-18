@@ -102,6 +102,7 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
    }
    .men{border: double; width: 10%; position: relative;
     left: 45%; border-color: white; background-color: grey;}
+    .men:hover{background-color: silver;}
    .pages {
                 text-decoration:underline;
                 color:black;
