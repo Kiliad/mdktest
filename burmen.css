@@ -50,19 +50,21 @@ background: rgba(255,255,255,0.7);
   transition-duration: .25s;
 }
  
-.menu-item {
+.menu-item {color: #C40202;
   display: block;
+  box-shadow: 0 0 10px 0 #CC3300  inset, 0 0 10px 4px azure;
+    transition: 670ms linear;
   padding: 12px 24px;
-  color: #333;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
   transition-duration: .25s;
+
 }
-.menu-item:hover {
-  background-color: #00bfff; transition: 850ms;text-shadow: 1px 1px 2px azure, 0 0 1em red;
-}
+.menu-item:hover {color: black;
+box-shadow: 0 0 40px 40px #66CCFF inset, 0 0 0 0 #3498db;
+      -webkit-transition: all 600ms ease-in-out;}
  
  
 #menu-toggle{
