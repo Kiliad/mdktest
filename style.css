@@ -76,7 +76,7 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 800px
+    width: 70%;
     }
   html{scroll-behavior: smooth;}
   .shadowtext {
