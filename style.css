@@ -67,7 +67,7 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
     padding: 2%;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 60%;
     }
     .div2 {
     background: rgba(255,255,255,0.1);
@@ -76,7 +76,7 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 60%;
     }
   html{scroll-behavior: smooth;}
   .shadowtext {
