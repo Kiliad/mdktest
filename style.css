@@ -67,7 +67,7 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
     padding: 2%;
     margin-left: auto;
     margin-right: auto;
-    width: 50%
+    width: 70%
     }
     .div2 {
     background: rgba(255,255,255,0.1);
@@ -151,7 +151,7 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
     nav ul {display: none;}
     nav li:hover > ul  {display: block;}
       .pic2 {text-align: center;}
-      .pic { text-align: center; height: 100%; width: 100%;}
+      .pic { text-align: center; }
 
    }
       .gif {text-align:center;}
