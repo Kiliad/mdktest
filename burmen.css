@@ -1,11 +1,12 @@
 <style type="text/css">  
 .a{}
+
     .menu-btn{
   display: flex;
   align-items: center;
   position: absolute;
-  top: 1%;
-  right: -15px;
+  top: -80%;
+  right: 850px;
   width: 35px;
   height: 6px;
   cursor: pointer;
@@ -72,13 +73,16 @@ box-shadow: 0 0 40px 40px #66CCFF inset, 0 0 0 0 #3498db;
 }
  
 #menu-toggle:checked ~ .menu-btn > span{
-  transform: rotate(45deg);
+  height: 10px;
+  position: sticky;
+  transform: rotate(315deg);
 }
 #menu-toggle:checked ~ .menu-btn > span::before{
   top: 0;
   transform: rotate(0);
 }
 #menu-toggle:checked ~ .menu-btn > span::after{
+  height: 10px;
   top: 0;
   transform: rotate(90deg);
 }

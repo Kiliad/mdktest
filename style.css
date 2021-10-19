@@ -10,6 +10,7 @@
   h2 {font-size: 25px;text-align: center;}
   h3 {font-size: 25px;text-align: center;}
   h5 {text-align: right; font-size: 35px;}
+  h6 {text-align: left; font-size: 35px;}
   li {font-size: 25px;}
   ul.b {list-style-type: square;}
   body.index {background-image:url(Multimedia/Fon.jpg); background-attachment: fixed;background-size: cover;}
@@ -34,6 +35,8 @@
   body.avtmur {background-image: url(Multimedia/avtmurf.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
   body.avtmilf {background-image: url(Multimedia/avtmilf.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
   body.logfun {background-image: url(Multimedia/logfunfon.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
+  body.frak {background-image: url(Multimedia/frak.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
+  body.otl {background-image: url(Multimedia/otlf.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
     /*header {background-image: url(Multimedia/567.jpg); height: 400px;
     margin-right: -10px;
     margin-left: -10px;
