@@ -37,6 +37,19 @@
   body.logfun {background-image: url(Multimedia/logfunfon.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
   body.frak {background-image: url(Multimedia/frak.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
   body.otl {background-image: url(Multimedia/otlf.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
+
+  @media (max-width: 1000px) {
+  img {    
+    height: 70%;
+    width: 70%;
+  }
+  .button{
+        height: 20px;
+    width: 80px;
+  }
+
+ 
+}
     /*header {background-image: url(Multimedia/567.jpg); height: 400px;
     margin-right: -10px;
     margin-left: -10px;
@@ -117,10 +130,11 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
         }
 .smpage {
     background: #00bfff;
-    color: black;
+    color: black; 
 }
 
  .button {
+
       position: relative;
       left: 3%;
       transform: translate(-0%, 0);
@@ -162,290 +176,10 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
       opacity:1;
       position:fixed;
       bottom:50px;
-      right:100px;
+      right:110px;
       display:none;
       text-indent:-9999px;
       background: url('Multimedia/icon_top2.png') no-repeat;
                           }
-.body_slides{
-    list-style:none;
-    margin:0;
-    padding:0;
-    z-index:-2; 
-    background:#000;}
-.body_slides,
-.body_slides:after{
-    position: fixed;
-    width:100%;
-    height:100%;
-    top:0px;
-    left:0px;}
-.body_slides:after { 
-    content: '';
-    background: transparent url(images/pattern.png) repeat top left;}
- 
- 
-.body_slides li{
-    width:100%;
-    height:100%;
-    position:absolute;
-    top:0;
-    left:0;
-    background-size:cover;
-    background-repeat:no-repeat;
-    opacity:0;
-    -webkit-animation: anim_slides 12s linear infinite 0s;
-    -moz-animation: anim_slides 12s linear infinite 0s;
-    -o-animation: anim_slides 12s linear infinite 0s;
-    -ms-animation: anim_slides 12s linear infinite 0s;
-    animation: anim_slides 12s linear infinite 0s;
-}
-.body_slides li:nth-child(1){
-background-image: url(Multimedia/394026.jpg) 
-}
-.body_slides li:nth-child(2){
--webkit-animation-delay: 6.0s;
--moz-animation-delay: 6.0s;
-background-image: url(Multimedia/planeta-stroitelstvo-yadro.jpg) 
-}
-@-webkit-keyframes anim_slides {
-0% {opacity:0;}
-6% {opacity:1;}
-24% {opacity:1;}
-50% {opacity:0;}
-100% {opacity:0;}
-}
-@-moz-keyframes anim_slides {
-0% {opacity:0;}
-6% {opacity:1;}
-24% {opacity:1;}
-50% {opacity:0;}
-100% {opacity:0;}
-}
 
-
-
-
- .body_slidess{
-    list-style:none;
-    margin:0;
-    padding:0;
-    z-index:-2; 
-    background:#000;}
-.body_slidess,
-.body_slidess:after{
-    position: fixed;
-    width:100%;
-    height:100%;
-    top:0px;
-    left:0px;}
-.body_slidess:after { 
-    content: '';
-    background: transparent url() repeat top left;}
- 
- 
-.body_slidess li{
-    width:100%;
-    height:100%;
-    position:absolute;
-    top:0;
-    left:0;
-    background-size:cover;
-    background-repeat:no-repeat;
-    opacity:0;
-    -webkit-animation: anim_slides 12s linear infinite 0s;
-    -moz-animation: anim_slides 12s linear infinite 0s;
-    -o-animation: anim_slides 12s linear infinite 0s;
-    -ms-animation: anim_slides 12s linear infinite 0s;
-    animation: anim_slides 12s linear infinite 0s;
-}
-.body_slidess li:nth-child(1){
-background-image: url(Multimedia/mat2.jpg) 
-}
-.body_slidess li:nth-child(2){
--webkit-animation-delay: 6.0s;
--moz-animation-delay: 6.0s;
-background-image: url(Multimedia/ASUS-Maximus-XI-Extreme-1501x1600_large.jpg) 
-}
-@-webkit-keyframes anim_slides {
-0% {opacity:0;}
-6% {opacity:1;}
-24% {opacity:1;}
-50% {opacity:0;}
-100% {opacity:0;}
-}
-@-moz-keyframes anim_slides {
-0% {opacity:0;}
-6% {opacity:1;}
-24% {opacity:1;}
-50% {opacity:0;}
-100% {opacity:0;}
-}
-.body_slidesss{
-    list-style:none;
-    margin:0;
-    padding:0;
-    z-index:-2; 
-    background:#000;}
-.body_slidesss,
-.body_slidesss:after{
-    position: fixed;
-    width:100%;
-    height:100%;
-    top:0px;
-    left:0px;}
-.body_slidesss:after { 
-    content: '';
-    background: transparent url() repeat top left;}
- 
- 
-.body_slidesss li{
-    width:100%;
-    height:100%;
-    position:absolute;
-    top:0;
-    left:0;
-    background-size:cover;
-    background-repeat:no-repeat;
-    opacity:0;
-    -webkit-animation: anim_slides 12s linear infinite 0s;
-    -moz-animation: anim_slides 12s linear infinite 0s;
-    -o-animation: anim_slides 12s linear infinite 0s;
-    -ms-animation: anim_slides 12s linear infinite 0s;
-    animation: anim_slides 12s linear infinite 0s;
-}
-.body_slidesss li:nth-child(1){
-background-image: url(Multimedia/darkf.jpg) 
-}
-.body_slidesss li:nth-child(2){
--webkit-animation-delay: 6.0s;
--moz-animation-delay: 6.0s;
-background-image: url(Multimedia/broken.jpg) 
-}
-@-webkit-keyframes anim_slides {
-0% {opacity:0;}
-6% {opacity:1;}
-24% {opacity:1;}
-50% {opacity:0;}
-100% {opacity:0;}
-}
-@-moz-keyframes anim_slides {
-0% {opacity:0;}
-6% {opacity:1;}
-24% {opacity:1;}
-50% {opacity:0;}
-100% {opacity:0;}
-}
-
-.body_slidessss{
-    list-style:none;
-    margin:0;
-    padding:0;
-    z-index:-2; 
-    background:#000;}
-.body_slidessss,
-.body_slidessss:after{
-    position: fixed;
-    width:100%;
-    height:100%;
-    top:0px;
-    left:0px;}
-.body_slidessss:after { 
-    content: '';
-    background: transparent url() repeat top left;}
- 
- 
-.body_slidessss li{
-    width:100%;
-    height:100%;
-    position:absolute;
-    top:0;
-    left:0;
-    background-size:cover;
-    background-repeat:no-repeat;
-    opacity:0;
-    -webkit-animation: anim_slides 12s linear infinite 0s;
-    -moz-animation: anim_slides 12s linear infinite 0s;
-    -o-animation: anim_slides 12s linear infinite 0s;
-    -ms-animation: anim_slides 12s linear infinite 0s;
-    animation: anim_slides 12s linear infinite 0s;
-}
-.body_slidessss li:nth-child(1){
-background-image: url(Multimedia/1616051479_10-p-epik-fon-11.jpg) 
-}
-.body_slidessss li:nth-child(2){
--webkit-animation-delay: 6.0s;
--moz-animation-delay: 6.0s;
-background-image: url(Multimedia/Dark-Fantasy-Background-Wallpaper-HD.jpg) 
-}
-@-webkit-keyframes anim_slides {
-0% {opacity:0;}
-6% {opacity:1;}
-24% {opacity:1;}
-50% {opacity:0;}
-100% {opacity:0;}
-}
-@-moz-keyframes anim_slides {
-0% {opacity:0;}
-6% {opacity:1;}
-24% {opacity:1;}
-50% {opacity:0;}
-100% {opacity:0;}
-}
-
-.body_slidessss{
-    list-style:none;
-    margin:0;
-    padding:0;
-    z-index:-2; 
-    background:#000;}
-.body_slidesssss,
-.body_slidesssss:after{
-    position: fixed;
-    width:100%;
-    height:100%;
-    top:0px;
-    left:0px;}
-.body_slidesssss:after { 
-    content: '';
-    background: transparent url() repeat top left;}
- 
- 
-.body_slidesssss li{
-    width:100%;
-    height:100%;
-    position:absolute;
-    top:0;
-    left:0;
-    background-size:cover;
-    background-repeat:no-repeat;
-    opacity:0;
-    -webkit-animation: anim_slides 12s linear infinite 0s;
-    -moz-animation: anim_slides 12s linear infinite 0s;
-    -o-animation: anim_slides 12s linear infinite 0s;
-    -ms-animation: anim_slides 12s linear infinite 0s;
-    animation: anim_slides 12s linear infinite 0s;
-}
-.body_slidesssss li:nth-child(1){
-background-image: url(Multimedia/1616051479_10-p-epik-fon-11.jpg) 
-}
-.body_slidesssss li:nth-child(2){
--webkit-animation-delay: 6.0s;
--moz-animation-delay: 6.0s;
-background-image: url(Multimedia/Dark-Fantasy-Background-Wallpaper-HD.jpg) 
-}
-@-webkit-keyframes anim_slides {
-0% {opacity:0;}
-6% {opacity:1;}
-24% {opacity:1;}
-50% {opacity:0;}
-100% {opacity:0;}
-}
-@-moz-keyframes anim_slides {
-0% {opacity:0;}
-6% {opacity:1;}
-24% {opacity:1;}
-50% {opacity:0;}
-100% {opacity:0;}
-}
  </style>
