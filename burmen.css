@@ -1,4 +1,4 @@
-<style type="text/css">  
+<style type="text/css">
 .a{}
 
     .menu-btn{
@@ -33,7 +33,7 @@
   content: '';
   top: 6px;
 }
- 
+
 .menubox{
 overflow-x: scroll; /* прокрутка по горизонтали */
 overflow-y: scroll; /* прокрутка по вертикали */
@@ -41,16 +41,16 @@ overflow-y: scroll; /* прокрутка по вертикали */
   visibility: hidden;
   top: 15s%;
   left: -100%;
-  width: 100%;
+  width: 40%;
   height: 50%;
   margin: 0;
   padding: 50px 0;
   list-style: none;
-background: rgba(255,255,255,0.7);
+background: rgba(255,255,255,1);
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   transition-duration: .25s;
 }
- 
+
 .menu-item {color: black;
   display: block;
   box-shadow: 0 0 10px 0 #CC3300  inset, 0 0 10px 4px azure;
@@ -66,12 +66,12 @@ background: rgba(255,255,255,0.7);
 .menu-item:hover {color: #319405;
 box-shadow: 0 0 40px 40px #66CCFF inset, 0 0 0 0 #3498db;
       -webkit-transition: all 600ms ease-in-out;}
- 
- 
+
+
 #menu-toggle{
   opacity: 0;
 }
- 
+
 #menu-toggle:checked ~ .menu-btn > span{
   height: 10px;
   position: sticky;
@@ -95,5 +95,10 @@ box-shadow: 0 0 40px 40px #66CCFF inset, 0 0 0 0 #3498db;
   margin: 0 auto;
   position:relative;
 }
+
+@media (max-width: 1000px) {
+  .menubox {
+    width: 100%;
+  }
 
 </style>
