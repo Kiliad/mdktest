@@ -44,9 +44,8 @@
     width: 70%;
   }
   .button{
-        min-height: 20px;
-        max-height: 80px;
-    max-width: 140px;
+      height: auto;
+    width: auto;
   }
   .div{
     max-width: 90%;
