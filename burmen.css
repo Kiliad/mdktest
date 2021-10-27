@@ -99,7 +99,7 @@ box-shadow: 0 0 40px 40px #66CCFF inset, 0 0 0 0 #3498db;
 @media (max-width: 1000px) {
   .menubox {
     width: 100%;
-    height: 400px;
+    height: 200px;
   }
 
 </style>
