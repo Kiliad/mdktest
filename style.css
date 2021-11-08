@@ -13,32 +13,8 @@
   h6 {text-align: left; font-size: 35px;}
   li {font-size: 25px;}
   ul.b {list-style-type: square;}
-  body.index {background-image:url(Multimedia/Fon.jpg); background-attachment: fixed;background-size: cover;}
-  body.test {background-image:url(Multimedia/test2.jpg); background-attachment: fixed;background-size: cover;}
-  body.str4 {background-image:url(Multimedia/ba6b10aeb93229e165274fd960c104bb.jpg ); background-attachment: fixed;background-size: cover;}
-  body.processor_creation {background-image:url(Multimedia/fon2.jpg ); background-attachment: fixed;background-size: cover;}
-  body.types_of_processors {background-attachment: fixed;background-size: cover;}
-  body.types_of_architecture {background-image: url(Multimedia/tester.jpg) ;background-attachment: fixed;background-size: cover;}
-  body.str4 {background-image: url(Multimedia/fon2.jpeg) ;background-attachment: fixed;background-size: cover;}
-  body.adr {background-image: url(Multimedia/outerspace-6.gif) ;background-attachment: fixed;background-size: cover; background-position: center; }
-  /*body.mat {background-image: url(Multimedia/ASUS-Maximus-XI-Extreme-1501x1600_large.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }*/
-
-  /*body.reg {background-image: url(Multimedia/394026.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }*/
-  /*body.sokr {background-image: url(Multimedia/1616051479_10-p-epik-fon-11.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }*/
-  body.assembler {background-image: url(Multimedia/fantasy_art-142954.jpg!d) ;background-attachment: fixed;background-size: cover; background-position: center; }
-  body.prog {background-image: url(Multimedia/progfon.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
-  body.Myr {background-image: url(https://i.pinimg.com/originals/cb/10/9d/cb109d5d1402ae804422a89aa168da00.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
-  body.Mobproc {background-image: url(https://wallpaperforu.com/wp-content/uploads/2021/03/Wallpaper-Digital-Art-Artwork-Video-Games-Dark-Souls-A41.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
-  body.pol {background-image: url(https://wallpaperaccess.com/full/1141048.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
-  body.Plis {background-image: url(Multimedia/thumb-1920-877952.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
-  body.diodmatr {background-image: url(Multimedia/diodmatr.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
-  body.avtmur {background-image: url(Multimedia/avtmurf.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
-  body.avtmilf {background-image: url(Multimedia/avtmilf.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
-  body.logfun {background-image: url(Multimedia/logfunfon.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
-  body.frak {background-image: url(Multimedia/frak.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
-  body.otl {background-image: url(Multimedia/otlf.jpg) ;background-attachment: fixed;background-size: cover; background-position: center; }
-
-  @media (max-width: 1000px) {
+    body {background-image: url(Multimedia/osnfon.jpg);background-attachment: fixed;background-size: cover; background-position: center; }
+  @media  (max-width: 1500px) {
   img {
     height: 70%;
     width: 70%;
