@@ -15,7 +15,7 @@
   li {font-size: 25px;}
   ul.b {list-style-type: square;}
     body {background-image: url(Multimedia/osnfon.jpg);background-attachment: fixed;background-size: cover; background-position: center; }
-  @media  (max-width: 1500px) {
+  @media  (max-width: 1300px) {
   img {
     height: 70%;
     width: 70%;
