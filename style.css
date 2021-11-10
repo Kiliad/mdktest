@@ -14,7 +14,7 @@
   h6 {text-align: left; font-size: 35px;}
   li {font-size: 25px;}
   ul.b {list-style-type: square;}
-    body {background-image: url(Multimedia/osnfon.jpg);background-attachment: fixed;background-size: cover; background-position: center; }
+    body {background-image: url(Multimedia/osnfon.jpg);background-size: cover; background-position: center; }
   @media  (max-width: 1200px) {
   img {
     height: 70%;
@@ -29,11 +29,7 @@
     min-width: 90%;
 
   }
-body{
-    background-image: url((Multimedia/Fon.jpg);
-    background-size: cover;
-  background-attachment: initial;
-    }
+
 }
     /*header {background-image: url(Multimedia/567.jpg); height: 400px;
     margin-right: -10px;
