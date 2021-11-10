@@ -2,7 +2,7 @@
 
 1{}
 
-  
+
   p.dline {line-height: 1.5;}
   p {line-height: 1.5em;font-size: 25px;text-indent: 20px; text-align: justify;}
   p2{line-height: 0.9em;font-size: 25px;text-indent: 20px; color: black}
@@ -15,7 +15,7 @@
   li {font-size: 25px;}
   ul.b {list-style-type: square;}
     body {background-image: url(Multimedia/osnfon.jpg);background-attachment: fixed;background-size: cover; background-position: center; }
-  @media  (max-width: 1300px) {
+  @media  (max-width: 1200px) {
   img {
     height: 70%;
     width: 70%;
@@ -147,12 +147,12 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
     nav ul {display: none;}
     nav li:hover > ul  {display: block;}
       .pic2 {text-align: center;}
-      .pic { text-align: center; }
+      .pic { text-align: center;}
 
    }
       .gif {text-align:center;}
   2{}
-  
+
      .scrollup{
       width:40px;
       height:40px;
