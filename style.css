@@ -32,6 +32,7 @@
 body{
     background-image: url((Multimedia/osnfon.jpg);
     background-size: cover;
+  background-attachment: initial;
     }
 }
     /*header {background-image: url(Multimedia/567.jpg); height: 400px;
