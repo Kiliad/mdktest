@@ -1,0 +1,39 @@
+<style type="text/css">
+
+1{}
+
+.preloader {
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      overflow: hidden;
+      background: #fff;
+      z-index: 1001;
+    }
+
+    .preloader__image {
+      position: relative;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      height: 100%;
+      margin-top: 0px;
+      margin-left: 0px;
+      background: url('Multimedia/preltest2.gif'); background-size: cover; background-repeat: no-repeat;
+    }
+
+    .loaded_hiding .preloader {
+      transition: 0.3s opacity;
+      opacity: 0;
+    }
+
+    .loaded .preloader {
+      display: none;
+    }
+ @media  (max-width: 1000px) {
+  .preloader__image {
+    display: none;
+  }
+ </style>
