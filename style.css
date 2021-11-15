@@ -26,6 +26,11 @@
       height: auto;
     width: auto;
   }
+  .pic3{
+      height: 50%;
+    width: 50%;
+    margin-left: 20%;
+  }
   .div{
     max-width: 90%;
     min-width: 90%;
@@ -152,6 +157,7 @@ a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear;
     nav li{font-size: 120%;}
     nav ul {display: none;}
     nav li:hover > ul  {display: block;}
+      .pic3 {text-align: center;}
       .pic2 {text-align: center;}
       .pic { text-align: center;}
 
