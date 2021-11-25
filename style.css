@@ -36,7 +36,11 @@
     min-width: 90%;
 
   }
-
+/*body{
+    background-image: url((Multimedia/Fon.jpg);
+    background-size: cover;
+  background-attachment: initial;
+    }*/
 }
     /*header {background-image: url(Multimedia/567.jpg); height: 400px;
     margin-right: -10px;
@@ -62,7 +66,7 @@ border:solid;
    }
 a.button:active { background: #FFFFFF; color: #000000; transition: 100ms linear; border-radius: 0 20px;}
   .div {
-    background: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.8);
     background-clip: padding-box;
     border: 25px;  border-radius: 25px;
     padding: 2%;
